@@ -1,7 +1,7 @@
-import icon from '../../notification-icon.svg'
-import './styles.css' 
+import icon from '../../notification-icon.svg';
+import './styles.css'; 
 
-function NotificationButton() {
+function NotificationButton(): JSX.Element {
     return (
         <div className="dsmeta-red-btn">
             <img
@@ -11,4 +11,4 @@ function NotificationButton() {
     )
 }
 
-export default NotificationButton
+export default NotificationButton;
